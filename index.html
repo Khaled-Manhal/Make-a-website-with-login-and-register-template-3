@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website with login and register</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+        </nav>
+        <div class="search-bar">
+            <input type="text" placeholder="Search...">
+            <button class="btn-icon"><ion-icon name="search"></ion-icon></button>
+        </div>
+    </header>
+    <div class="background"></div>
+    <div class="container">
+        <div class="content">
+            <h2 class="logo"><ion-icon name="logo-firebase"></ion-icon>Khalicode</h2>
+            <div class="text-sci">
+                <h2>Welcome!<br><span>To Our New Website</span></h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, maiores.</p>
+                <div class="social-icons">
+                <a href="#"><ion-icon name="logo-linkedin" class="icon"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-facebook" class="icon"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-instagram"class="icon"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-twitter" class="icon"></ion-icon></a>
+            </div>
+        </div>
+        </div>
+        <div class="logreg-box">
+            <div class="form-box login">
+                <form>
+                    <h2 class="title">Sign In</h2>
+                    <div class="input-box">
+                        <span class="icon">
+                            <ion-icon name="mail"></ion-icon>
+                        </span>
+                        <input type="email" required>
+                        <label>Email</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon">
+                            <ion-icon name="lock-closed"></ion-icon>
+                        </span>
+                        <input type="password" required>
+                        <label>Password</label>
+                    </div>
+                    <div class="remember-forgot">
+                        <label><input type="checkbox">Remember me</label>
+                        <a href="#">Forgot password?</a>
+                    </div>
+                    <button class="btn" type="submit">Sign In</button>
+                    <div class="logreg-link">
+                        <p>Don't have an account?<a href="#" class="register-link">Sign up</a></p>
+                    </div>
+                </form>
+            </div>
+            <div class="form-box register">
+                <form>
+                    <h2 class="title">Sign Up</h2>
+                    <div class="input-box">
+                        <span class="icon">
+                            <ion-icon name="person"></ion-icon>
+                        </span>
+                        <input type="text" required>
+                        <label>Name</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon">
+                            <ion-icon name="mail"></ion-icon>
+                        </span>
+                        <input type="email" required>
+                        <label>Email</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon">
+                            <ion-icon name="lock-closed"></ion-icon>
+                        </span>
+                        <input type="password" required>
+                        <label>Password</label>
+                    </div>
+                    <div class="remember-forgot">
+                        <label><input type="checkbox">I agree to the terms & conditions</label>
+                    </div>
+                    <button class="btn" type="submit">Sign Up</button>
+                    <div class="logreg-link">
+                        <p>Already have an account?<a href="#" class="login-link">Sign in</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@8.0.13/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@8.0.13/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
